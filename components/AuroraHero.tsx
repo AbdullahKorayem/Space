@@ -58,7 +58,7 @@ export default function AuroraHero() {
 			repeat: Infinity,
 			repeatType: "mirror",
 		});
-	}, []);
+	},);
 	const border = useMotionTemplate`1px solid ${color}`;
 	const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
 
